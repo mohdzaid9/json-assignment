@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #container{
+        width: 90%;
+        margin: auto;
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+      }
+      #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        padding: 15px;
+        margin-bottom: 50px;
+        gap: 500px;
+      }
+      #navbar > a{
+        color: white;
+        text-decoration: none;
+        
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+    </div>
+    
+  <!-- navbar -->
+<div id="navbar">
+  <a href="index.html">HOME</a>
+  <a href="cart.html">CART</a>
+</div>
+</body>
+</html>
+<script src="index.js"></script>
